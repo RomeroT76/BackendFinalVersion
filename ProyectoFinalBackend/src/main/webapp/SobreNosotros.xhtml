@@ -1,0 +1,127 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html">
+	
+<h:head>
+    <title>Perfiles Estudiantiles</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+    <style type="text/css">
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f0f2f5;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 30px;
+            font-size: 2.5em;
+        }
+        .person-info {
+            margin-bottom: 40px;
+            background: linear-gradient(145deg, #e6e9ee, #ffffff);
+            border-radius: 10px;
+            padding: 25px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        .person-info:hover {
+            transform: translateY(-5px);
+        }
+        .person-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+        .icon-container {
+            width: 60px;
+            height: 60px;
+            background-color: #3498db;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 20px;
+        }
+        .icon-container i {
+            font-size: 30px;
+            color: white;
+        }
+        h2 {
+            color: #2980b9;
+            margin: 0;
+            font-size: 1.8em;
+        }
+        p {
+            text-align: justify;
+            margin-bottom: 10px;
+        }
+        .info-tag {
+            display: inline-block;
+            background-color: #ecf0f1;
+            padding: 5px 10px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            color: #7f8c8d;
+            margin-right: 10px;
+            margin-bottom: 10px;
+        }
+    </style>
+</h:head>
+<h:body>
+    <div class="container">
+        <h1>Perfiles Estudiantiles</h1>
+        <h:form>
+            <div class="person-info">
+                <div class="person-header">
+                    <div class="icon-container">
+                        <i class="fas fa-user-graduate"></i>
+                    </div>
+                    <h2>Roberto Romero</h2>
+                </div>
+                <p>Roberto Alejandro Romero Torres. Nació el 6 de septiembre de 1998 en la
+                Ciudad de Piñas, Provincia de El Oro. Cursó sus estudios de primaria en 
+                la escuela Dr. Federico González Suárez. Se graduó de Bachiller en
+                Ciencias en el Instituto Tecnológico Superior Ocho de Noviembre.
+                Actualmente cursa la carrera de Computación en la Universidad Politécnica Salesiana.</p>
+                <div class="info-tags">
+                    <span class="info-tag"><i class="fas fa-map-marker-alt"></i> Piñas, El Oro</span>
+                    <span class="info-tag"><i class="fas fa-calendar-alt"></i> 6 de septiembre, 1998</span>
+                    <span class="info-tag"><i class="fas fa-university"></i> UPS</span>
+                </div>
+            </div>
+
+            <div class="person-info">
+                <div class="person-header">
+                    <div class="icon-container">
+                        <i class="fas fa-user-graduate"></i>
+                    </div>
+                    <h2>Jorge Márquez</h2>
+                </div>
+                <p>Jorge Esteban Márquez Chávez, nació el 27 de febrero de 2002 en Caracas, Venezuela.
+                Estudió la primaria y parte del bachillerato en la Unidad Educativa "Ave María". En el año 2018,
+                se mudó a la ciudad de Cuenca, Ecuador, donde finalizó el bachillerato en el colegio fiscal Fray Vicente Solano.
+                Actualmente se encuentra estudiando en la Universidad Politécnica Salesiana siguiendo la carrera de Computación.</p>
+                <div class="info-tags">
+                    <span class="info-tag"><i class="fas fa-map-marker-alt"></i> Cuenca, Ecuador</span>
+                    <span class="info-tag"><i class="fas fa-calendar-alt"></i> 27 de febrero, 2002</span>
+                    <span class="info-tag"><i class="fas fa-university"></i> UPS</span>
+                </div>
+            </div>
+        </h:form>
+    </div>
+</h:body>
+</html>
